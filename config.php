@@ -1,9 +1,9 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'http://13.232.228.97/opencart/');
+define('HTTP_SERVER', 'https://myopencartphp.azurewebsites.net');
 
 // HTTPS
-define('HTTPS_SERVER', 'http://13.232.228.97/opencart/');
+define('HTTPS_SERVER', 'https://myopencartphp.azurewebsites.net');
 
 // DIR
 define('DIR_APPLICATION', '/var/www/html/opencart/catalog/');
