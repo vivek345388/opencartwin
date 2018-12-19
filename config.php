@@ -1,15 +1,15 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'https://myopencartphp.azurewebsites.net');
+define('HTTP_SERVER', 'https://myopencartphp.azurewebsites.net/opencart/');
 
 // HTTPS
-define('HTTPS_SERVER', 'https://myopencartphp.azurewebsites.net');
+define('HTTPS_SERVER', 'https://myopencartphp.azurewebsites.net/opencart/');
 
 // DIR
-define('DIR_APPLICATION', '/var/www/html/opencart/catalog/');
-define('DIR_SYSTEM', '/var/www/html/opencart/system/');
-define('DIR_IMAGE', '/var/www/html/opencart/image/');
-define('DIR_STORAGE', '/var/www/html/opencart/storage/');
+define('DIR_APPLICATION', '/home/site/wwwroot/opencart/catalog/');
+define('DIR_SYSTEM', '/home/site/wwwroot/opencart/system/');
+define('DIR_IMAGE', '/home/site/wwwroot/opencart/image/');
+define('DIR_STORAGE', '/home/site/wwwroot/opencart/storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');
@@ -22,8 +22,8 @@ define('DIR_UPLOAD', DIR_STORAGE . 'upload/');
 
 // DB V
 define('DB_DRIVER', 'mysqli');
-define('DB_HOSTNAME', 'localhost');
-define('DB_USERNAME', 'root');
+define('DB_HOSTNAME', 'opencartphp.mysql.database.azure.com');
+define('DB_USERNAME', 'opencartadmin@opencartphp');
 define('DB_PASSWORD', 'admin.123456');
 define('DB_DATABASE', 'opencart');
 define('DB_PORT', '3306');
