@@ -1,15 +1,15 @@
 <?php
 // HTTP
-define('HTTP_SERVER', 'https://myopencartphp.azurewebsites.net/opencart/');
+define('HTTP_SERVER', 'https://myopencartphp.azurewebsites.net/');
 
 // HTTPS
-define('HTTPS_SERVER', 'https://myopencartphp.azurewebsites.net/opencart/');
+define('HTTPS_SERVER', 'https://myopencartphp.azurewebsites.net/');
 
 // DIR
-define('DIR_APPLICATION', '/home/site/wwwroot/opencart/catalog/');
-define('DIR_SYSTEM', '/home/site/wwwroot/opencart/system/');
-define('DIR_IMAGE', '/home/site/wwwroot/opencart/image/');
-define('DIR_STORAGE', '/home/site/wwwroot/opencart/storage/');
+define('DIR_APPLICATION', '/home/site/wwwroot/catalog/');
+define('DIR_SYSTEM', '/home/site/wwwroot/system/');
+define('DIR_IMAGE', '/home/site/wwwroot/image/');
+define('DIR_STORAGE', '/home/site/wwwroot/storage/');
 define('DIR_LANGUAGE', DIR_APPLICATION . 'language/');
 define('DIR_TEMPLATE', DIR_APPLICATION . 'view/theme/');
 define('DIR_CONFIG', DIR_SYSTEM . 'config/');
