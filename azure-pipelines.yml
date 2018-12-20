@@ -2,7 +2,7 @@
 # Test and package your PHP application.
 # Add steps that run tests, save build artifacts, deploy, and more:
 # https://docs.microsoft.com/vsts/pipelines/languages/php
-
+# This is a comment from Azure DevOps repo.
 pool:
   vmImage: 'Ubuntu 16.04'
 
